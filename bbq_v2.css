@@ -1,0 +1,62 @@
+body {
+  background-color: #1f1f1f;
+  margin: 0px;
+  padding: 0px;
+}
+
+.home {
+  background-image: url("images/pics/bbq_background.png");
+  background-size: cover;
+  
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 2px 3px #1f1f1f;
+}
+
+img {
+  align-self: center;
+  max-height: 200px;
+}
+
+h1 {
+  color: darkgoldenrod;
+  font-family: 'Rye', serif;
+  align-items: center;
+}
+
+h2 {
+  color: darkgoldenrod;
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  color: orange;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button{
+  max-width: fit-content;
+  padding: 10px;
+  background-color: darkgoldenrod;
+  border-radius: 25px;
+  align-self: center;
+}
+
+.button-shrink{
+  transition: all 0.3s ease-in-out;
+}
+
+.button-shrink:hover{
+  transform: scale(0.7);
+}
+
+/* ### MEDIA QUERY ### */
+@media only screen and (max-width: 450px) and (orientation: portrait) {
+  .home{
+    background-image: url("images/pics/bbq_rust.png");
+    width: 100vw;
+    text-align: center;
+  }  
+}
