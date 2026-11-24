@@ -4,6 +4,36 @@ body {
   padding: 0px;
 }
 
+.bbq_enter{
+  max-width: 60%;
+  max-height: 50%;
+}
+
+header{
+  background-color: #1f1f1f;
+  width: 100vw;
+  height: 50px;
+  position: fixed;
+  align-content: center;
+}
+
+.head_logo{
+  max-height: 50px;
+}
+
+nav{
+  justify-self: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav_btn{
+  align-items: center;
+}
+
 .home {
   background-image: url("images/pics/bbq_background.png");
   background-size: cover;
@@ -13,11 +43,11 @@ body {
   flex-direction: column;
   text-align: center;
   text-shadow: 2px 3px #1f1f1f;
+  justify-content: center;
 }
 
 img {
   align-self: center;
-  max-height: 200px;
 }
 
 h1 {
