@@ -61,6 +61,11 @@ h2 {
   font-family: 'Lato', sans-serif;
 }
 
+h3{
+  color: darkorange;
+  text-transform: uppercase;
+}
+
 p {
   color: orange;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -72,6 +77,28 @@ button{
   background-color: darkgoldenrod;
   border-radius: 25px;
   align-self: center;
+}
+
+.food{
+  display: flex;
+  align-self: center;
+  width: 80vw;
+  justify-content: space-between;
+  gap: 2%;
+}
+
+.food_detail{
+  max-height: 30vh;
+  display: flex;
+}
+
+.food_detail, img{
+  max-height: 200px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
 }
 
 .button-shrink{
